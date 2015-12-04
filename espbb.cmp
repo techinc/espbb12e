@@ -1,66 +1,91 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Mon 30 Mar 2015 07:58:23 PM CEST
+Cmp-Mod V01 Created by PcbNew   date = Sun 29 Nov 2015 10:10:18 PM CET
 
 BeginCmp
-TimeStamp = /55198306;
-Reference = C1;
-ValeurCmp = C;
-IdModule  = SM0603_Capa;
+TimeStamp = 56604740
+Path = /565B521A
+Reference = U1;
+ValeurCmp = ESP-12E/F;
+IdModule  = esp8266:ESP-12E;
 EndCmp
 
 BeginCmp
-TimeStamp = /551982ED;
-Reference = C2;
-ValeurCmp = C;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /55187FB9;
+TimeStamp = 566045E9
+Path = /565B58C8
 Reference = P1;
-ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+ValeurCmp = CONN_01X12;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
 EndCmp
 
 BeginCmp
-TimeStamp = /55187FAC;
+TimeStamp = 56604604
+Path = /565B5F2D
 Reference = P2;
-ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+ValeurCmp = CONN_01X12;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
 EndCmp
 
 BeginCmp
-TimeStamp = /5519871D;
-Reference = R1;
-ValeurCmp = R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5519881F;
-Reference = R2;
-ValeurCmp = R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55198EAB;
+TimeStamp = 55198ED2
+Path = /55198EAB
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
 IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /55187FC6;
-Reference = U1;
-ValeurCmp = ESP-12/07V2/08V2;
-IdModule  = ESP-08v2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55198B03;
+TimeStamp = 55198A07
+Path = /55198B03
 Reference = U2;
 ValeurCmp = LM6206;
 IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = 55198D70
+Path = /551982ED
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 55198D7C
+Path = /55198306
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = 55198D86
+Path = /5519871D
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 55198D90
+Path = /5519881F
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 551A0146
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = openhw;
+EndCmp
+
+BeginCmp
+TimeStamp = 56604610
+Path = /565B5AC2
+Reference = R3;
+ValeurCmp = 0Ohm;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 EndListe
